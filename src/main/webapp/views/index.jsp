@@ -68,7 +68,7 @@
                 <div class="row">
                     <div class="mx-auto d-flex">
                         <ul class="timer-wthree">
-                            <li>day12312s<span id="days"></span></li>
+                            <li>day<span id="days"></span></li>
                             <li>Hours<span id="hours"></span></li>
                             <li>Minutes<span id="minutes"></span></li>
                             <li>Seconds<span id="seconds"></span></li>
@@ -84,7 +84,7 @@
             <nav class="navbar second navbar-expand-lg navbar-light pagescrollfix">
                 <div class="container">
                     <h1>
-                        <a class="navbar-brand" href="index.jsp">
+                        <a class="navbar-brand" href="<%=path%>/views/index.jsp">
                             <span class="fa fa-vine" aria-hidden="true"></span>ersatile
                         </a>
                     </h1>
@@ -96,12 +96,12 @@
                         <div class="navbar-nav secondfix ml-lg-auto">
                             <ul class="navbar-nav text-center">
                                 <li class="nav-item active  mr-lg-3">
-                                    <a class="nav-link" href="index.jsp">Home
+                                    <a class="nav-link" href="<%=path%>/views/index.jsp">Home
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
                                 <li class="nav-item   mr-lg-3">
-                                    <a class="nav-link" href="about.jsp">about</a>
+                                    <a class="nav-link" href="<%=path%>/views/about.jsp">about</a>
                                 </li>
                                 <li class="nav-item dropdown mr-lg-3">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -114,7 +114,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.jsp">contact</a>
+                                    <a class="nav-link" href="<%=path%>/views/contact.jsp">contact</a>
                                 </li>
                                 <li class="nav-item">
                                     <button type="button" class="btn theme-btn" data-toggle="modal" aria-pressed="false"
@@ -173,7 +173,7 @@
                 </div>
                 <div class="col-lg-6 abbot-right mt-lg-0 mt-3">
                     <span></span>
-                    <img src="images/a.png" class="img-fluid" alt="" />
+                    <img src="<%=path%>/views/images/a.png" class="img-fluid" alt="" />
                 </div>
             </div>
         </div>
@@ -184,7 +184,7 @@
         <div class="container py-sm-4 py-3">
             <div class="clearfix">
                 <h4 class="abt-text text-capitalize text-white float-md-left">versatile is unique in the world</h4>
-                <a href="about.jsp" class="text-capitalize serv_link btn bg-theme2 float-md-right">explore now</a>
+                <a href="<%=path%>/views/about.jsp" class="text-capitalize serv_link btn bg-theme2 float-md-right">explore now</a>
             </div>
         </div>
     </div>
@@ -201,7 +201,7 @@
                                 <h4 class="home-title my-3">why choose us</h4>
                                 <p> Pellentesque in ipsum id orci porta dapibus roined magna orem ipsum dolor sit
                                     ame.</p>
-                                <a href="about.jsp" class="btn wthree-bnr-btn">Read more</a>
+                                <a href="<%=path%>/views/about.jsp" class="btn wthree-bnr-btn">Read more</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6 my-4">
@@ -230,7 +230,7 @@
                                 <h4 class="home-title my-3">why we are unique</h4>
                                 <p> Pellentesque in ipsum id orci porta dapibus roined magna orem ipsum dolor sit
                                     ame.</p>
-                                <a href="about.jsp" class="btn wthree-bnr-btn">Read more</a>
+                                <a href="<%=path%>/views/about.jsp" class="btn wthree-bnr-btn">Read more</a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6 mt-sm-0 mt-4">
@@ -248,7 +248,7 @@
                                 <h4 class="home-title my-3">become a member</h4>
                                 <p> Pellentesque in ipsum id orci porta dapibus roined magna orem ipsum dolor sit
                                     ame.</p>
-                                <a href="about.jsp" class="btn wthree-bnr-btn">Read more</a>
+                                <a href="<%=path%>/views/about.jsp" class="btn wthree-bnr-btn">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -284,20 +284,20 @@
                         nec sem a, ornare auctor mi. Sed
                         mi tortor, commodo a felis in, fringilla tincidunt nulla.</p>
 
-                    <a href="about.jsp" class="text-capitalize serv_link btn bg-theme">view more</a>
+                    <a href="<%=path%>/views/about.jsp" class="text-capitalize serv_link btn bg-theme">view more</a>
                 </div>
             </div>
         </div>
         <div class="about-btm mt-lg-4">
             <div class="row no-gutters">
                 <div class="col-md-4 img-grid">
-                    <img src="images/s1.jpg" class="img-fluid" alt="" />
+                    <img src="<%=path%>/views/images/s1.jpg" class="img-fluid" alt="" />
                 </div>
                 <div class="col-md-4 img-grid">
-                    <img src="images/s4.jpg" class="img-fluid" alt="" />
+                    <img src="<%=path%>/views/images/s4.jpg" class="img-fluid" alt="" />
                 </div>
                 <div class="col-md-4 img-grid">
-                    <img src="images/s3.jpg" class="img-fluid" alt="" />
+                    <img src="<%=path%>/views/images/s3.jpg" class="img-fluid" alt="" />
                 </div>
             </div>
         </div>
@@ -345,7 +345,7 @@
             <div class="row abbot-main py-lg-5 py-4 f-main" id="features">
                 <div class="col-lg-5 abbot-right mt-lg-0 mt-4">
                     <span></span>
-                    <img src="images/testi.jpg" class="img-fluid rounded" alt="" />
+                    <img src="<%=path%>/views/images/testi.jpg" class="img-fluid rounded" alt="" />
                 </div>
                 <div class="offset-lg-1 col-lg-6 about-text-grid">
                     <h4 class="w3pvt-title text-white"> features
@@ -367,7 +367,7 @@
                             <i class="fa fa-check-circle-o  mr-3"></i>Vestibulum at eros</li>
                     </ul>
 
-                    <a href="contact.jsp" class="text-capitalize serv_link btn bg-theme2">contact us</a>
+                    <a href="<%=path%>/views/contact.jsp" class="text-capitalize serv_link btn bg-theme2">contact us</a>
                 </div>
 
             </div>
@@ -380,7 +380,7 @@
             <div class="row">
                 <div class="col-lg-4 footer-logo mb-lg-0 mb-4">
                     <h2>
-                        <a href="index.jsp"> <span class="fa fa-vine" aria-hidden="true"></span>ersatile</a>
+                        <a href="<%=path%>/views/index.jsp"> <span class="fa fa-vine" aria-hidden="true"></span>ersatile</a>
                     </h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry. Lorem Ipsum
@@ -566,10 +566,10 @@
     </div>
     <!-- // Register modal -->
     <!-- js -->
-    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="<%=path%>/views/js/jquery-2.2.3.min.js"></script>
     <!-- //js -->
     <!-- fixed-scroll-nav-js -->
-    <script src="js/scrolling-nav.js"></script>
+    <script src="<%=path%>/views/js/scrolling-nav.js"></script>
     <script>
         $(window).scroll(function () {
             if ($(document).scrollTop() > 70) {
@@ -581,7 +581,7 @@
     </script>
     <!-- //fixed-scroll-nav-js -->
     <!-- count down -->
-    <script src="js/count-down.js"></script>
+    <script src="<%=path%>/views/js/count-down.js"></script>
     <!-- //count down -->
     <!-- script for password match -->
     <script>
@@ -602,8 +602,8 @@
     </script>
     <!-- script for password match -->
     <!-- start-smooth-scrolling -->
-    <script src="js/move-top.js"></script>
-    <script src="js/easing.js"></script>
+    <script src="<%=path%>/views/js/move-top.js"></script>
+    <script src="<%=path%>/views/js/easing.js"></script>
     <script>
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -634,12 +634,12 @@
 
         });
     </script>
-    <script src="js/SmoothScroll.min.js"></script>
+    <script src="<%=path%>/views/js/SmoothScroll.min.js"></script>
     <!-- //smooth-scrolling-of-move-up -->
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+    <script src="<%=path%>/views/js/bootstrap.js"></script>
 </body>
 
 </html>

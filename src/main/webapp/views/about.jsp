@@ -16,7 +16,7 @@
             window.scrollTo(0, 1);
         }
     </script>
-    <!-- Custom Theme files -->views\css\bootstrap.css
+    <!-- Custom Theme files -->
     <link href="<%=path%>/views/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
     <link href="<%=path%>/views/css/style.css" type="text/css" rel="stylesheet" media="all">
     <!-- font-awesome icons -->
@@ -83,7 +83,7 @@
             <nav class="navbar second navbar-expand-lg navbar-light pagescrollfix">
                 <div class="container">
                     <h1>
-                        <a class="navbar-brand" href="index.jsp">
+                        <a class="navbar-brand" href="<%=path%>/views/index.jsp">
                             <span class="fa fa-vine" aria-hidden="true"></span>ersatile
                         </a>
                     </h1>
@@ -95,12 +95,12 @@
                         <div class="navbar-nav secondfix ml-lg-auto">
                             <ul class="navbar-nav text-center">
                                 <li class="nav-item  mr-lg-3">
-                                    <a class="nav-link" href="index.jsp">Home
+                                    <a class="nav-link" href="<%=path%>/views/index.jsp">Home
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
                                 <li class="nav-item  active  mr-lg-3">
-                                    <a class="nav-link" href="about.jsp">about</a>
+                                    <a class="nav-link" href="<%=path%>/views/about.jsp">about</a>
                                 </li>
                                 <li class="nav-item dropdown mr-lg-3">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -113,7 +113,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.jsp">contact</a>
+                                    <a class="nav-link" href="<%=path%>/views/contact.jsp">contact</a>
                                 </li>
                                 <li class="nav-item">
                                     <button type="button" class="btn theme-btn" data-toggle="modal" aria-pressed="false"
@@ -138,7 +138,7 @@
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb d-flex justify-content-center bg-theme">
             <li class="breadcrumb-item">
-                <a href="index.jsp">Home</a>
+                <a href="<%=path%>/views/index.jsp">Home</a>
             </li>
             <li class="breadcrumb-item active font-weight-bold" aria-current="page">About Us</li>
         </ol>
@@ -177,7 +177,7 @@
         <div class="container py-sm-4 py-3">
             <div class="clearfix">
                 <h4 class="abt-text text-capitalize text-white float-md-left">versatile is unique in the world</h4>
-                <a href="about.jsp" class="text-capitalize serv_link btn bg-theme2 float-md-right">explore now</a>
+                <a href="<%=path%>/views/about.jsp" class="text-capitalize serv_link btn bg-theme2 float-md-right">explore now</a>
             </div>
         </div>
     </div>
@@ -202,13 +202,13 @@
         <div class="about-btm mt-lg-4">
             <div class="row no-gutters">
                 <div class="col-md-4 img-grid">
-                    <img src="images/s1.jpg" class="img-fluid" alt="" />
+                    <img src="<%=path%>/views/images/s1.jpg" class="img-fluid" alt="" />
                 </div>
                 <div class="col-md-4 img-grid">
-                    <img src="images/s4.jpg" class="img-fluid" alt="" />
+                    <img src="<%=path%>/views/images/s4.jpg" class="img-fluid" alt="" />
                 </div>
                 <div class="col-md-4 img-grid">
-                    <img src="images/s3.jpg" class="img-fluid" alt="" />
+                    <img src="<%=path%>/views/images/s3.jpg" class="img-fluid" alt="" />
                 </div>
             </div>
         </div>
@@ -278,7 +278,7 @@
                             <i class="fa fa-check-circle-o  mr-3"></i>Vestibulum at eros</li>
                     </ul>
 
-                    <a href="contact.jsp" class="text-capitalize serv_link btn bg-theme2">contact us</a>
+                    <a href="<%=path%>/views/contact.jsp" class="text-capitalize serv_link btn bg-theme2">contact us</a>
                 </div>
 
             </div>
@@ -296,7 +296,7 @@
             <div class="row py-4 mt-lg-5  team-grid">
                 <div class="col-md-4 col-6">
                     <div class="box13">
-                        <img src="images/t1.jpg" class="img-fluid" alt="" />
+                        <img src="<%=path%>/views/images/t1.jpg" class="img-fluid" alt="" />
                         <div class="box-content">
                             <h3 class="title">Williamson</h3>
                             <span class="post">role in detail</span>
@@ -309,7 +309,7 @@
                 </div>
                 <div class="col-md-4 col-6">
                     <div class="box13">
-                        <img src="images/t2.jpg" class="img-fluid" alt="" />
+                        <img src="<%=path%>/views/images/t2.jpg" class="img-fluid" alt="" />
                         <div class="box-content">
                             <h3 class="title">Kristiana</h3>
                             <span class="post">role in detail</span>
@@ -322,7 +322,7 @@
                 </div>
                 <div class="col-md-4 col-6 mx-auto">
                     <div class="box13">
-                        <img src="images/t3.jpg" class="img-fluid" alt="" />
+                        <img src="<%=path%>/views/images/t3.jpg" class="img-fluid" alt="" />
                         <div class="box-content">
                             <h3 class="title">Kristiana</h3>
                             <span class="post">role in detail</span>
@@ -350,7 +350,7 @@
                     <ul class="rslides" id="slider3">
                         <li>
                             <div class="testi-pos">
-                                <img src="images/ts1.jpg" alt="" class="img-fluid rounded-circle mb-3" />
+                                <img src="<%=path%>/views/images/ts1.jpg" alt="" class="img-fluid rounded-circle mb-3" />
                             </div>
                             <div class="testi-w3layouts">
                                 <p>
@@ -368,7 +368,7 @@
                         </li>
                         <li>
                             <div class="testi-pos">
-                                <img src="images/ts2.jpg" alt="" class="img-fluid rounded-circle mb-3" />
+                                <img src="<%=path%>/views/images/ts2.jpg" alt="" class="img-fluid rounded-circle mb-3" />
 
                             </div>
                             <div class="testi-w3layouts">
@@ -387,7 +387,7 @@
                         </li>
                         <li>
                             <div class="testi-pos">
-                                <img src="images/ts3.jpg" alt="" class="img-fluid rounded-circle mb-3" />
+                                <img src="<%=path%>/views/images/ts3.jpg" alt="" class="img-fluid rounded-circle mb-3" />
 
                             </div>
                             <div class="testi-w3layouts">
@@ -417,7 +417,7 @@
             <div class="row">
                 <div class="col-lg-4 footer-logo mb-lg-0 mb-4">
                     <h2>
-                        <a href="index.jsp"> <span class="fa fa-vine" aria-hidden="true"></span>ersatile</a>
+                        <a href="<%=path%>/views/index.jsp"> <span class="fa fa-vine" aria-hidden="true"></span>ersatile</a>
                     </h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry. Lorem Ipsum

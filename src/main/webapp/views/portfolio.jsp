@@ -85,7 +85,7 @@
             <nav class="navbar second navbar-expand-lg navbar-light pagescrollfix">
                 <div class="container">
                     <h1>
-                        <a class="navbar-brand" href="index.jsp">
+                        <a class="navbar-brand" href="<%=path%>/views/index.jsp">
                             <span class="fa fa-vine" aria-hidden="true"></span>ersatile
                         </a>
                     </h1>
@@ -97,12 +97,12 @@
                         <div class="navbar-nav secondfix ml-lg-auto">
                             <ul class="navbar-nav text-center">
                                 <li class="nav-item  mr-lg-3">
-                                    <a class="nav-link" href="index.jsp">Home
+                                    <a class="nav-link" href="<%=path%>/views/index.jsp">Home
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
                                 <li class="nav-item   mr-lg-3">
-                                    <a class="nav-link" href="about.jsp">about</a>
+                                    <a class="nav-link" href="<%=path%>/views/about.jsp">about</a>
                                 </li>
                                 <li class="nav-item dropdown mr-lg-3  active">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -115,7 +115,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.jsp">contact</a>
+                                    <a class="nav-link" href="<%=path%>/views/contact.jsp">contact</a>
                                 </li>
                                 <li class="nav-item">
                                     <button type="button" class="btn theme-btn" data-toggle="modal" aria-pressed="false"
@@ -140,7 +140,7 @@
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb d-flex justify-content-center bg-theme">
             <li class="breadcrumb-item">
-                <a href="index.jsp">Home</a>
+                <a href="<%=path%>/views/index.jsp">Home</a>
             </li>
             <li class="breadcrumb-item active font-weight-bold" aria-current="page">Portfolio</li>
         </ol>
@@ -162,52 +162,52 @@
                 </li>
                 <li class="col-lg-3 col-sm-6 my-lg-4 mt-4">
                     <div class="gallery-grid1">
-                        <img src="images/s1.jpg" alt=" " class="img-fluid" />
+                        <img src="<%=path%>/views/images/s1.jpg" alt=" " class="img-fluid" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6 my-4">
                     <div class="gallery-grid1">
-                        <img src="images/s3.jpg" alt=" " class="img-fluid" />
+                        <img src="<%=path%>/views/images/s3.jpg" alt=" " class="img-fluid" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6 mt-sm-4">
                     <div class="gallery-grid1">
-                        <img src="images/s2.jpg" alt=" " class="img-fluid" />
+                        <img src="<%=path%>/views/images/s2.jpg" alt=" " class="img-fluid" />
                     </div>
                 </li>
                 <li class="col-lg-4 col-sm-6 my-sm-0 my-4">
                     <div class="gallery-grid1">
-                        <img src="images/s3.jpg" alt=" " class="img-fluid" />
+                        <img src="<%=path%>/views/images/s3.jpg" alt=" " class="img-fluid" />
                     </div>
                 </li>
                 <li class="col-lg-4 col-sm-6">
                     <div class="gallery-grid1">
-                        <img src="images/s5.jpg" alt=" " class="img-fluid" />
+                        <img src="<%=path%>/views/images/s5.jpg" alt=" " class="img-fluid" />
                     </div>
                 </li>
                 <li class="col-lg-4 col-sm-6 mx-auto mt-lg-0 mt-4">
                     <div class="gallery-grid1">
-                        <img src="images/s4.jpg" alt=" " class="img-fluid" />
+                        <img src="<%=path%>/views/images/s4.jpg" alt=" " class="img-fluid" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6 my-4">
                     <div class="gallery-grid1">
-                        <img src="images/s2.jpg" alt=" " class="img-fluid" />
+                        <img src="<%=path%>/views/images/s2.jpg" alt=" " class="img-fluid" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6 my-lg-4">
                     <div class="gallery-grid1">
-                        <img src="images/s4.jpg" alt=" " class="img-fluid" />
+                        <img src="<%=path%>/views/images/s4.jpg" alt=" " class="img-fluid" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6 my-lg-4  mt-sm-0 mt-4">
                     <div class="gallery-grid1">
-                        <img src="images/s1.jpg" alt=" " class="img-fluid" />
+                        <img src="<%=path%>/views/images/s1.jpg" alt=" " class="img-fluid" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6 mt-4">
                     <div class="gallery-grid1">
-                        <img src="images/s3.jpg" alt=" " class="img-fluid" />
+                        <img src="<%=path%>/views/images/s3.jpg" alt=" " class="img-fluid" />
                     </div>
                 </li>
             </ul>
@@ -219,7 +219,7 @@
         <div class="container py-sm-4 py-3">
             <div class="clearfix">
                 <h4 class="abt-text text-capitalize text-white float-md-left">versatile is unique in the world</h4>
-                <a href="about.jsp" class="text-capitalize serv_link btn bg-theme2 float-md-right">explore now</a>
+                <a href="<%=path%>/views/about.jsp" class="text-capitalize serv_link btn bg-theme2 float-md-right">explore now</a>
             </div>
         </div>
     </div>
@@ -231,7 +231,7 @@
 
                 <div class="col-lg-4 footer-logo">
                     <h2>
-                        <a href="index.jsp">Versatile</a>
+                        <a href="<%=path%>/views/index.jsp">Versatile</a>
                     </h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry. Lorem Ipsum
@@ -417,10 +417,10 @@
     </div>
     <!-- // Register modal -->
     <!-- js -->
-    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="<%=path%>/views/js/jquery-2.2.3.min.js"></script>
     <!-- //js -->
     <!-- Scrolling Nav JavaScript -->
-    <script src="js/scrolling-nav.js"></script>
+    <script src="<%=path%>/views/js/scrolling-nav.js"></script>
     <!-- //fixed-scroll-nav-js -->
     <script>
         $(window).scroll(function () {
@@ -432,7 +432,7 @@
         });
     </script>
     <!-- count down -->
-    <script src="js/count-down.js"></script>
+    <script src="<%=path%>/views/js/count-down.js"></script>
     <!-- script for password match -->
     <script>
         window.onload = function () {
@@ -452,7 +452,7 @@
     </script>
     <!-- script for password match -->
     <!-- portfolio -->
-    <script src="js/jquery.picEyes.js"></script>
+    <script src="<%=path%>/views/js/jquery.picEyes.js"></script>
     <script>
         $(function () {
             //picturesEyes($('.demo li'));
@@ -462,8 +462,8 @@
     <!-- //portfolio -->
 
     <!-- start-smooth-scrolling -->
-    <script src="js/move-top.js"></script>
-    <script src="js/easing.js"></script>
+    <script src="<%=path%>/views/js/move-top.js"></script>
+    <script src="<%=path%>/views/js/easing.js"></script>
     <script>
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -494,12 +494,12 @@
 
         });
     </script>
-    <script src="js/SmoothScroll.min.js"></script>
+    <script src="<%=path%>/views/js/SmoothScroll.min.js"></script>
     <!-- //smooth-scrolling-of-move-up -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+    <script src="<%=path%>/views/js/bootstrap.js"></script>
 </body>
 
 </html>

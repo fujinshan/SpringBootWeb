@@ -83,7 +83,7 @@
             <nav class="navbar second navbar-expand-lg navbar-light pagescrollfix">
                 <div class="container">
                     <h1>
-                        <a class="navbar-brand" href="index.jsp">
+                        <a class="navbar-brand" href="<%=path%>/views/index.jsp">
                             <span class="fa fa-vine" aria-hidden="true"></span>ersatile
                         </a>
                     </h1>
@@ -95,12 +95,12 @@
                         <div class="navbar-nav secondfix ml-lg-auto">
                             <ul class="navbar-nav text-center">
                                 <li class="nav-item  mr-lg-3">
-                                    <a class="nav-link" href="index.jsp">Home
+                                    <a class="nav-link" href="<%=path%>/views/index.jsp">Home
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
                                 <li class="nav-item   mr-lg-3">
-                                    <a class="nav-link" href="about.jsp">about</a>
+                                    <a class="nav-link" href="<%=path%>/views/about.jsp">about</a>
                                 </li>
                                 <li class="nav-item dropdown mr-lg-3">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -113,7 +113,7 @@
                                     </div>
                                 </li>
                                 <li class="nav-item  active">
-                                    <a class="nav-link" href="contact.jsp">contact</a>
+                                    <a class="nav-link" href="<%=path%>/views/contact.jsp">contact</a>
                                 </li>
                                 <li class="nav-item">
                                     <button type="button" class="btn theme-btn" data-toggle="modal" aria-pressed="false"
@@ -138,7 +138,7 @@
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb d-flex justify-content-center bg-theme">
             <li class="breadcrumb-item">
-                <a href="index.jsp">Home</a>
+                <a href="<%=path%>/views/index.jsp">Home</a>
             </li>
             <li class="breadcrumb-item active font-weight-bold" aria-current="page">Contact Us</li>
         </ol>
@@ -236,7 +236,7 @@
             <div class="row">
                 <div class="col-lg-4 footer-logo mb-lg-0 mb-4">
                     <h2>
-                        <a href="index.jsp"> <span class="fa fa-vine" aria-hidden="true"></span>ersatile</a>
+                        <a href="<%=path%>/views/index.jsp"> <span class="fa fa-vine" aria-hidden="true"></span>ersatile</a>
                     </h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry. Lorem Ipsum
@@ -422,10 +422,10 @@
     </div>
     <!-- // Register modal -->
     <!-- js -->
-    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="<%=path%>/views/js/jquery-2.2.3.min.js"></script>
     <!-- //js -->
     <!-- fixed-scroll-nav-js -->
-    <script src="js/scrolling-nav.js"></script>
+    <script src="<%=path%>/views/js/scrolling-nav.js"></script>
     <script>
         $(window).scroll(function () {
             if ($(document).scrollTop() > 70) {
@@ -458,8 +458,8 @@
     </script>
     <!-- script for password match -->
     <!-- start-smooth-scrolling -->
-    <script src="js/move-top.js"></script>
-    <script src="js/easing.js"></script>
+    <script src="<%=path%>/views/js/move-top.js"></script>
+    <script src="<%=path%>/views/js/easing.js"></script>
     <script>
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -490,12 +490,12 @@
 
         });
     </script>
-    <script src="js/SmoothScroll.min.js"></script>
+    <script src="<%=path%>/views/js/SmoothScroll.min.js"></script>
     <!-- //smooth-scrolling-of-move-up -->
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
+    <script src="<%=path%>/views/js/bootstrap.js"></script>
 </body>
 
 </html>
